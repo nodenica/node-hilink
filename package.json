@@ -1,0 +1,29 @@
+{
+    "name":"hilink",
+    "version":"0.0.1",
+    "description":"A simple HiLink SMS Client",
+    "keywords":[
+        "sms",
+        "hilink",
+        "modem",
+        "huawei",
+        "usb"
+    ],
+    "dependencies":{
+        "xmlbuilder":"~2.1.0",
+        "dateformat":"~1.0.7-1.2.3",
+        "xml2js":"~0.4.1"
+    },
+    "directories":{
+        "lib":"./lib/hilink"
+    },
+    "main":"./index.js",
+    "bugs":{
+        "url":"https://github.com/paulomcnally/node-hilink/issues/new",
+        "email":"paulomcnally@gmail.com"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/paulomcnally/node-hilink.git"
+    }
+}
